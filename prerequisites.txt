@@ -1,0 +1,8 @@
+prerequisites:
+1. python
+2. customtkinter module
+3. pandas module
+4. numpy module
+5. datetime module
+6. PIL module
+7. Matplotlib module
