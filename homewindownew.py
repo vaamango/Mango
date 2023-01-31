@@ -34,28 +34,12 @@ unamelst=unamedf.to_numpy().tolist()
 uname=unamelst[0][0] + '-'
 # print(unamelst,len(uname))
 try:
-    # with open('user data\\'+uname+'Cost.csv','r') as fo:
-    #     pass
-    # with open('user data\\'+uname+'Inventory(2).csv','r') as fo:
-    #     pass
-    # with open('user data\\'+uname+'sales().csv','r') as fo:
-    #     pass
-    # with open('user data\\'+uname+'Stock_Entry.csv','r') as fo:
-    #     pass
     pd.read_csv('user data\\'+uname+'Inventory(2).csv')
     pd.read_csv('user data\\'+uname+'Stock_Entry.csv')
     pd.read_csv('user data\\'+uname+'Cost.csv')
     pd.read_csv('user data\\'+uname+'sales().csv')
     # print('try')
 except:
-    # with open('user data\\'+uname+'Cost.csv','w') as fo:
-    #     pass
-    # with open('user data\\'+uname+'Inventory(2).csv','w') as fo:
-    #     pass
-    # with open('user data\\'+uname+'sales().csv','w') as fo:
-    #     pass
-    # with open('user data\\'+uname+'Stock_Entry.csv','w') as fo:
-    #     pass
     inventorydf1=pd.DataFrame(columns=['Item_Code','Item_Name','In_Stock'])
     stockdf2=pd.DataFrame(columns=['Item_Code','Item_Name','Quantity Bought','Date_SE','SE_no.'])
     costdf3=pd.DataFrame(columns=['Item_Code','Item_Name','Cost Price','Selling Price'])
@@ -386,8 +370,8 @@ def stock():
         # Add some style
 
         style.theme_use("clam")
-        style.configure('Treeview',background='#373535',foreground='silver',rowheight=65,fieldbackground='#373535',font=('Times New Roman',24))
-        style.configure('Treeview.Heading',background='silver',foreground='black',rowheight=50,fieldbackground='#5A5A5A',font=('Times New Roman',22))
+        style.configure('Treeview',background='#5e6273',foreground='white',rowheight=65,fieldbackground='#5e6273',font=('Times New Roman',24))
+        style.configure('Treeview.Heading',background='#5e6273',foreground='white',rowheight=50,fieldbackground='##5e6273',font=('Times New Roman',22))
         # Change selected color
         style.map('Treeview', 
         background=[('selected', '#34eb80')])
@@ -435,8 +419,8 @@ def stock():
         # Add some style
 
         style.theme_use("clam")
-        style.configure('Treeview',background='#373535',foreground='silver',rowheight=65,fieldbackground='#373535',font=('Times New Roman',24))
-        style.configure('Treeview.Heading',background='silver',foreground='black',rowheight=50,fieldbackground='#5A5A5A',font=('Times New Roman',24))
+        style.configure('Treeview',background='#5e6273',foreground='white',rowheight=65,fieldbackground='#5e6273',font=('Times New Roman',24))
+        style.configure('Treeview.Heading',background='#5e6273',foreground='white',rowheight=50,fieldbackground='#5e6273',font=('Times New Roman',24))
         # Change selected color
         style.map('Treeview', 
         background=[('selected', '#34eb80')])
@@ -622,8 +606,8 @@ def stock_cost():
 
         style.theme_use("clam")
         style.configure('Treeview',
-        background='#373535',foreground='silver',rowheight=50,fieldbackground='#373535',font=('Times New Roman',27))
-        style.configure('Treeview.Heading',background='silver',foreground='black',rowheight=50,fieldbackground='#5A5A5A',font=('Times New Roman',30))
+        background='#5e6273',foreground='white',rowheight=50,fieldbackground='#5e6273',font=('Times New Roman',27))
+        style.configure('Treeview.Heading',background='#5e6273',foreground='white',rowheight=50,fieldbackground='#5e6273',font=('Times New Roman',30))
         # Change selected color
         style.map('Treeview', 
         background=[('selected', '#34eb80')])
@@ -668,8 +652,8 @@ def stock_cost():
 
         style.theme_use("clam")
         style.configure('Treeview',
-        background='#373535',foreground='silver',rowheight=50,fieldbackground='#373535',font=('Times New Roman',27))
-        style.configure('Treeview.Heading',background='silver',foreground='black',rowheight=50,fieldbackground='#5A5A5A',font=('Times New Roman',30))
+        background='#5e6273',foreground='white',rowheight=50,fieldbackground='#5e6273',font=('Times New Roman',27))
+        style.configure('Treeview.Heading',background='#5e6273',foreground='white',rowheight=50,fieldbackground='#5e6273',font=('Times New Roman',30))
         # Change selected color
         style.map('Treeview', 
         background=[('selected', '#34eb80')])
@@ -827,10 +811,10 @@ def inventory():
         # Add some style
 
         style.theme_use("clam")
-        style.configure('Treeview',background='#373535',foreground='silver',rowheight=60,fieldbackground='#373535',font=('Times New Roman',27))
-        style.configure('Treeview.Heading',background='silver',foreground='black',rowheight=50,fieldbackground='#5A5A5A',font=('Times New Roman',24))
+        style.configure('Treeview',background='#5e6273',foreground='white',rowheight=60,fieldbackground='#5e6273',font=('Times New Roman',27)) #373535
+        style.configure('Treeview.Heading',background='#5e6273',foreground='white',rowheight=50,fieldbackground='#5e6273',font=('Times New Roman',24)) #5A5A5A
         # Change selected color
-        style.map('Treeview', background=[('selected', '#34eb80')])
+        style.map('Treeview', background=[('selected', '#34eb80')]) #34eb80
 
         #scrollbar
         inventorytree_scroll = ck.CTkScrollbar(master=frame4,width=20,height=435,hover=True,fg_color='#504F4F') #504F4F
@@ -872,8 +856,8 @@ def inventory():
         # Add some style
 
         style.theme_use("clam")
-        style.configure('Treeview',background='#373535',foreground='silver',rowheight=60,fieldbackground='#373535',font=('Times New Roman',27))
-        style.configure('Treeview.Heading',background='silver',foreground='black',rowheight=50,fieldbackground='#5A5A5A',font=('Times New Roman',24))
+        style.configure('Treeview',background='#5e6273',foreground='white',rowheight=60,fieldbackground='#5e6273',font=('Times New Roman',27))
+        style.configure('Treeview.Heading',background='#5e6273',foreground='white',rowheight=50,fieldbackground='#5e6273',font=('Times New Roman',24))
         # Change selected color
         style.map('Treeview', background=[('selected', '#34eb80')])
 
@@ -1198,15 +1182,14 @@ def sales(a=None):
         profitsales.place(x=39,y=475)
 
     def sales_treeview(a):
-        global sales_tree
+        global sales_tree,billdetails_text
         #treeview-----------------------------------------------------------------------------------------------------------------------------
         style=ttk.Style()
         # Add some style
 
         style.theme_use("clam")
-        style.configure('Treeview',
-        background='#373535',foreground='silver',rowheight=40,fieldbackground='#373535',font=('Times New Roman',18))
-        style.configure('Treeview.Heading',background='silver',foreground='black',rowheight=45,fieldbackground='#5A5A5A',font=('Times New Roman',16))
+        style.configure('Treeview',background='#5e6273',foreground='white',rowheight=40,fieldbackground='#5e6273',font=('Times New Roman',18))
+        style.configure('Treeview.Heading',background='#5e6273',foreground='white',rowheight=45,fieldbackground='#5e6273',font=('Times New Roman',16))
         # Change selected color
         style.map('Treeview', 
         background=[('selected', '#34eb80')])
@@ -1244,6 +1227,14 @@ def sales(a=None):
         # Pack the treeview finally
         sales_tree.place(x=10,y=20)
         sales_tree.bind("<ButtonRelease-1>", sales_info)
+
+        billdetails_text=ck.CTkTextbox(master=frame2,width=680,height=230,font=('Times New Roman',20) ,corner_radius=20)
+        billdetails_text.configure(state='normal')
+        billdetails_text.delete('1.0', 'end')
+
+        billdetails_text.insert('insert','\t\t\tBill Details\n')
+        billdetails_text.configure(state='disabled')
+        billdetails_text.place(x=305,y=340)
         
     def search_sales():
         global sales_tree,itemcodeentrysales,itemnameentrysales,salesnoentrysales,S_Nsales
@@ -1253,8 +1244,8 @@ def sales(a=None):
 
         style.theme_use("clam")
         style.configure('Treeview',
-        background='#373535',foreground='silver',rowheight=40,fieldbackground='#373535',font=('Times New Roman',18))
-        style.configure('Treeview.Heading',background='silver',foreground='black',rowheight=45,fieldbackground='#5A5A5A',font=('Times New Roman',16))
+        background='#5e6273',foreground='white',rowheight=40,fieldbackground='#5e6273',font=('Times New Roman',18))
+        style.configure('Treeview.Heading',background='#5e6273',foreground='white',rowheight=45,fieldbackground='#5e6273',font=('Times New Roman',16))
         # Change selected color
         style.map('Treeview', 
         background=[('selected', '#34eb80')])
@@ -1411,7 +1402,7 @@ def sales(a=None):
 
     clearbutton=ck.CTkButton(master=frame3,text='CLEAR',command=clear_sales,height=33,width=100,corner_radius=20,cursor='hand2',text_color='black', font=('roboto',15))
     clearbutton.place(x=160,y=520)
-    clearbutton.bind("<ButtonRelease-1>",sales)
+    clearbutton.bind("<ButtonRelease-1>",sales_treeview)
 #sales_treeview===========
     sales_treeview(1)
 
@@ -2043,6 +2034,6 @@ def update_stock():
 
 # optionmenu_1 = ck.CTkOptionMenu(master=root3,values=["Light", "Dark", "System"],command=change_appearance_mode)
 # optionmenu_1.place(x=0,y=0)
-home()
+manage()
 root3.protocol("WM_DELETE_WINDOW", exitt)
 root3.mainloop()
