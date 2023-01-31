@@ -9,12 +9,12 @@
 ### Login page:
 
 
-<img width="616" alt="ss2" src="https://user-images.githubusercontent.com/121722690/210155341-be93788b-47d0-4be4-aabc-f1c5a7f0f02a.png">
+<img width="595" alt="ss2" src="https://user-images.githubusercontent.com/121722690/215756861-a9727e82-ceca-4efb-927b-762125d392c8.png">
 
 ### Signup page:
 
 
-<img width="611" alt="ss3" src="https://user-images.githubusercontent.com/121722690/210155345-766b37e1-a2c8-4f61-abb5-d197450b8495.png">
+<img width="596" alt="ss3" src="https://user-images.githubusercontent.com/121722690/215756970-c7d8a4c7-4d2d-4b3f-ae5b-fa7221850fcb.png">
 
 ### Home page:
 
@@ -24,27 +24,27 @@
 ### Manage page-inventory:
 
 
-<img width="831" alt="ss5" src="https://user-images.githubusercontent.com/121722690/210155348-e28ebd5e-39f3-4b91-97b1-87b0bf9516f3.png">
+<img width="821" alt="ss5" src="https://user-images.githubusercontent.com/121722690/215757222-ca24dd2d-1586-416e-91eb-42ad8aa88ee4.png">
 
 ### Mange page-stock:
 
 
-<img width="827" alt="ss6" src="https://user-images.githubusercontent.com/121722690/210155364-358c1526-dcc4-4628-9f1e-943b7cc23e51.png">
+<img width="824" alt="ss6" src="https://user-images.githubusercontent.com/121722690/215757303-1174894a-38f4-4bd3-8627-4cb7e9dfccdb.png">
 
 ### Manage page-stock-cost:
 
 
-<img width="831" alt="ss7" src="https://user-images.githubusercontent.com/121722690/210155369-b179d939-6ba1-4de3-95e1-0649e5b42399.png">
+<img width="821" alt="ss7" src="https://user-images.githubusercontent.com/121722690/215757396-2d95d8f3-9a9a-4f37-94d6-2ca9c56a7c4f.png">
 
 ### Manage page-billing:
 
 
-<img width="828" alt="ss8" src="https://user-images.githubusercontent.com/121722690/210155379-a4e919f0-6f2d-49e8-9865-50c03607f444.png">
+<img width="821" alt="ss8" src="https://user-images.githubusercontent.com/121722690/215757449-f67607eb-9097-4859-944d-509203128f06.png">
 
 ### Manage page-sales:
 
 
-<img width="832" alt="ss9" src="https://user-images.githubusercontent.com/121722690/210155383-3e72321c-a9da-4714-9db6-839ac908834c.png">
+<img width="823" alt="ss9" src="https://user-images.githubusercontent.com/121722690/215757524-b2c7c5de-8ccd-4216-a726-e404fce5b406.png">
 
 ### Analyse page (graph page):
 
